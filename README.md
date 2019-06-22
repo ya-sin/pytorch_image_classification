@@ -13,6 +13,9 @@ This repository includes:
 - cv2
 - PIL
 - jason
+## Dataset
+![dataset](https://i.imgur.com/Gual5EB.png)
+
 ## Train Model
 All the parameters are in **config.json**
 
