@@ -1,0 +1,19 @@
+{
+    "train" : {
+        "train_data_folder" : "./Dataset/Train/",
+        "save_model_name" : "conv2_layer_28x28_1",
+        "batch_size" : 256,
+        "epochs" : 50,
+        "learning_rate" : 1e-3
+    },
+    "test": {
+        "test_data_folder": "./Dataset/Pred/",
+        "classifier": "./models/conv2_layer_28x28_1.pt",
+        "batch_size" : 1,
+        "save_dir" : "./pred_result"
+    },
+    "infer": {
+        "path_to_classifier": "./models/conv2_layer_28x28_1.pt",
+        "path_to_input_image": "./images/test-1.png"
+    }
+}
